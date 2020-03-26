@@ -3,3 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+input {
+    display: block;
+}
+
+
+/* VARIABLES___________________________________- */
+
+:root {
+    --aguaGren-color: #94FFD2;
+    --aguaGreen-2-color: #87E8A4;
+    --aguaGreen-3-color: #A0FFA1;
+    --aguaGreen-4-color: #A7E887;
+    --greenPasto-color: #DCFF94;
+    --blackColor: rgb(24, 22, 22);
+    --whiteColor: #fff;
+}
+
+
+/* VARIABLES___________________________________- */
+
+
+/* MAIN_________________________________________________ */
+
+.main__section {}
+
+.section__container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.section__title {
+    color: var(--aguaGren-color);
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+}
+
+
+/* MAIN_________________________________________________ */

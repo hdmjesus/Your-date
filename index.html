@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalice.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Your Date</title>
 </head>
@@ -12,29 +13,31 @@
 <body>
     <main class="main">
         <section class="main__section">
+            <div class="section__container">
 
-            <h1>Your Date</h1>
+                <h1 class="section__title">Your Date</h1>
 
-            <form class="main__what-want">
+                <form class="main__what-want">
 
-                <input class="form__input" type="text" placeholder="Name">
-                <input class="form__input--date" type="date" name="fecha" id="fecha">
+                    <input class="form__input" type="text" placeholder="Name">
+                    <input class="form__input--date" type="date" name="fecha" id="fecha">
 
-                <h2>¿Que quieres saber?</h2>
+                    <h2>¿Que quieres saber?</h2>
 
-                <p>Usted podra conocer, cuantas horas han transcurrido desde su nacimiento, segundos, minutos, o el dia exacto que nacio.</p>
+                    <p>Usted podra conocer, cuantas horas han transcurrido desde su nacimiento, segundos, minutos, o el dia exacto que nacio.</p>
 
-                <select class="form__select" name="dates" id="select">
+                    <select class="form__select" name="dates" id="select">
+    
+                        <option value="">Horas de vida</option>
+                        <option value="">Minutos de vida</option>
+                        <option value="">Segundos de vida</option>
+                        <option value="">Dia de nacimiento</option>
+                    </select>
 
-                    <option value="">Horas de vida</option>
-                    <option value="">Minutos de vida</option>
-                    <option value="">Segundos de vida</option>
-                    <option value="">Dia de nacimiento</option>
-                </select>
+                    <input class="form__input--submit" type="submit" id="button">
 
-                <input class="form__input--submit" type="submit" id="button">
-
-            </form>
+                </form>
+            </div>
 
         </section>
     </main>
