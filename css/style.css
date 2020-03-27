@@ -7,10 +7,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+    background-color: rgb(228, 224, 224);
 }
 
 input {
     display: block;
+    margin: 20px;
 }
 
 
@@ -48,6 +50,67 @@ input {
     text-align: center;
     font-size: 2em;
     margin: 1em;
+}
+
+.main__what-want {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--whiteColor);
+    min-height: calc(100vh - 200px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form__input,
+.form__input--date {
+    width: 70%;
+    padding: 1em;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid rgba(138, 136, 136, 0.3);
+}
+
+.form__input:focus,
+.form__input--date:focus {
+    border: 1px solid var(--aguaGren-color);
+}
+
+.main__what-want h2 {
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    margin: 1em;
+}
+
+.main__what-want p {
+    font-size: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.form__select {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+.form__input--submit {
+    width: 150px;
+    padding: 0.7em;
+    background-color: var(--aguaGreen-4-color);
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.form__input--submit:hover {
+    background-color: #fff;
+    border: 2px solid var(--aguaGreen-4-color);
 }
 
 
