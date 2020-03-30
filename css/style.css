@@ -46,10 +46,11 @@ input {
 }
 
 .section__title {
-    color: var(--aguaGren-color);
+    color: var(--blackColor);
     text-align: center;
     font-size: 2em;
     margin: 1em;
+    font-weight: bold;
 }
 
 .main__what-want {
@@ -94,6 +95,10 @@ input {
     padding: 1em;
 }
 
+.info-game {
+    text-align: center;
+}
+
 .form__select {
     width: 70%;
     padding: 10px;
@@ -115,3 +120,26 @@ input {
 
 
 /* MAIN_________________________________________________ */
+
+@media screen and (min-width:600px) {
+    .main__what-want {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .info-game {
+        grid-column: span 2;
+        text-align: center;
+    }
+    .form__input,
+    .form__input--date {
+        width: 90%;
+    }
+    .form__select {
+        width: 90%;
+    }
+    .form__input--submit {
+        grid-column: span 2;
+        justify-self: center;
+    }
+}
