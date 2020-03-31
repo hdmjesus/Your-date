@@ -17,10 +17,10 @@
 
                 <h1 class="section__title">Your Date</h1>
 
-                <form class="main__what-want">
+                <form class="main__what-want" name="formulario1">
 
-                    <input class="form__input" type="text" placeholder="Name">
-                    <input class="form__input--date" type="date" name="fecha" id="fecha">
+                    <input class="form__input" type="text" placeholder="Name" id="name" require>
+                    <input class="form__input--date" type="date" name="fecha" id="fecha" require>
 
                     <div class="info-game">
                         <p>Usted podra conocer cuantas horas,minutos y segundos han transcurrido desde su nacimiento, o el dia exacto que nacio.</p>
@@ -28,10 +28,10 @@
 
                         <select class="form__select" name="dates" id="select">
     
-                            <option value="horas">Horas de vida</option>
-                            <option value="minutos">Minutos de vida</option>
-                            <option value="segundos">Segundos de vida</option>
-                            <option value="diaSemana">Dia de nacimiento</option>
+                            <option value="edad en horas">Horas de vida</option>
+                            <option value="edad en minutos">Minutos de vida</option>
+                            <option value="edad en segundos">Segundos de vida</option>
+                            <option value="edad en dias">Dia de nacimiento</option>
                         </select>
                     </div>
 
@@ -43,6 +43,8 @@
             </div>
 
         </section>
+        <script src="js/main.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </main>
 </body>
 
