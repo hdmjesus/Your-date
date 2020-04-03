@@ -5,7 +5,7 @@
 Ingresando al siguiente enlance, [Github](https://hdmjesus.github.io/Your-date/ "Github").
 
 ### Como usar:
-Llenar el formulario con tu **nombre** y la** fecha de tu nacimiento**, luego esperar que emerja una ventana con los resultados del calculo matematico.
+Llenar el formulario con tu **nombre** y la **fecha de tu nacimiento**, luego esperar que emerja una ventana con los resultados del calculo matematico.
 
 ### Contribuciones:
 Para aportar a este proyecto, hacer un pull request al mismo.
