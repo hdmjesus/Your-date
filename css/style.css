@@ -125,7 +125,7 @@ input {
     .main__what-want {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 200px 100px;
     }
     .info-game {
         grid-column: span 2;
